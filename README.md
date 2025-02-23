@@ -62,7 +62,8 @@ You are required to use this template. Feel free to install additional packages 
 
 ### API Integration
 
-- To fetch the data, you are to use the [API-FOOTBALL](https://www.api-football.com/documentation-v3). The api calls should be made usign Axios and the API key is provided within the `.env` file.
+- To fetch the data, you are to use the [API-FOOTBALL](https://www.api-football.com/documentation-v3). The api calls should be made usign Axios and the API key should be provided within a `.env` file.
+The API Key will be provided before the start of your assignment.
 The packages axios & @nuxtjs/axios are already included in the `package.json` file. However, they are not yet included in for example the `nuxt.config.js`.
 
 -   **Get /countries:** Use the get countries endpoint to fetch the countries for the Selection.
