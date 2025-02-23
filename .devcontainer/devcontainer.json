@@ -1,0 +1,10 @@
+{
+    "name": "Docker Compose",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "service",
+    "workspaceFolder": "/app",
+    "remoteUser": "root",
+    "extensions": [
+        "octref.vetur"
+    ],
+}
