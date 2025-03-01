@@ -1,21 +1,14 @@
 {
-      "compilerOptions": {
-            "target": "esnext",
-            "module": "esnext",
-            "moduleResolution": "node",
-            "lib": ["esnext", "dom"],
-            "esModuleInterop": true,
-            "allowJs": true,
-            "sourceMap": true,
-            "strict": true,
-            "types": [
-            "@types/node",
-            "@nuxt/types",
-            "@types/lodash"
-            ]
-      },
-      "exclude": [
-            "node_modules"
-      ],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "types": ["@types/node", "@nuxt/types", "@types/lodash"]
+  },
+  "exclude": ["node_modules"]
 }
-    
