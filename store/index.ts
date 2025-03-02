@@ -13,8 +13,6 @@ export interface RootState {
   selectedLeagueId: number | null;
   selectedSeason: number | null;
   selectedRound: string | null;
-  loading: boolean; // Global loading state
-  error: string | null; // Global error state
 }
 
 export const state = (): RootState => ({
@@ -28,9 +26,7 @@ export const state = (): RootState => ({
   selectedCountry: null,
   selectedLeagueId: null,
   selectedSeason: null,
-  selectedRound: null,
-  loading: false, // Initialize loading state
-  error: null // Initialize error state
+  selectedRound: null
 });
 
 export const mutations: MutationTree<RootState> = {
@@ -66,12 +62,6 @@ export const mutations: MutationTree<RootState> = {
   },
   setSelectedRound: (state, round) => {
     state.selectedRound = round;
-  },
-  setLoading: (state, loading) => {
-    state.loading = loading; // Mutation to set loading state
-  },
-  setError: (state, error) => {
-    state.error = error; // Mutation to set error state
   }
 };
 
