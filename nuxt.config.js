@@ -22,7 +22,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   css: ['~/static/css/tailwind.css'],
-  plugins: ['~/plugins/chart.js'],
+  plugins: [],
   components: true,
   buildModules: ['@nuxt/typescript-build'],
   modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios', '@nuxtjs/proxy'],
@@ -52,7 +52,6 @@ export default {
         tailwindcss: {},
         autoprefixer: {}
       }
-    },
-    transpile: ['vue-chartjs', 'chart.js']
+    }
   }
 };
