@@ -446,7 +446,7 @@
             </div>
           </div>
         </section>
-        <section class="flex h-fit min-w-fit flex-1 flex-col gap-6 rounded-xl border bg-gray-50 p-6 lg:min-w-96">
+        <section class="flex h-fit w-full min-w-96 flex-1 flex-col gap-6 overflow-scroll rounded-xl border bg-gray-50 p-6">
           <div class="flex flex-row items-center gap-2">
             <h2 class="text-lg font-bold text-gray-800">Players</h2>
             <div v-if="playersLength > 0" class="rounded-md border border-slate-300 px-2.5 py-0.5 text-center text-sm text-slate-600 shadow-sm transition-all">{{ playersLength }}</div>
